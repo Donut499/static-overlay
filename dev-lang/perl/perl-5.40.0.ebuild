@@ -65,11 +65,12 @@ RDEPEND="
 	sys-libs/gdbm
 	app-arch/bzip2
 	>=sys-libs/zlib-1.2.12
-	virtual/libcrypt:=
+	sys-libs/libxcrypt
 "
 DEPEND="${RDEPEND}"
 BDEPEND="${RDEPEND}"
 PDEPEND="
+	sys-libs/libxcrypt
 	sys-libs/gdbm
 	!minimal? (
 		>=app-admin/perl-cleaner-2.31
