@@ -66,6 +66,7 @@ RDEPEND="
 	app-arch/bzip2
 	>=sys-libs/zlib-1.2.12
 	sys-libs/libxcrypt
+	sys-apps/less
 "
 DEPEND="${RDEPEND}"
 BDEPEND="${RDEPEND}"

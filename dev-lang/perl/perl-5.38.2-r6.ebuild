@@ -68,6 +68,7 @@ RDEPEND="
 	>=sys-libs/zlib-1.2.12
 	virtual/libcrypt:=
 	sys-libs/libxcrypt
+	sys-apps/less
 "
 DEPEND="${RDEPEND}"
 BDEPEND="${RDEPEND}"
